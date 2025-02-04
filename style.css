@@ -1,0 +1,55 @@
+ol>li{
+    color: red;
+}
+
+h2+p{
+    color: green !important;
+}
+
+.red{
+    color: red;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    border: 15px dashed rebeccapurple;
+}
+
+.block:hover{
+    background-color: greenyellow;
+}
+
+.block:active{
+    background-color: blue;
+}
+
+.input-data{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.input-data:focus{
+    background-color: cadetblue;
+}
+
+input:checked+span{
+    color: blue;
+}
+
+.list-item{
+    list-style: none;
+}
+
+.list-item:first-child{
+    color: red;
+}
+.list-item:last-child{
+    color: blueviolet;
+}
+
+.list-item:nth-child(odd){
+    color: blue;
+}
